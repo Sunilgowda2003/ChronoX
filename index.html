@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChronoX | Time Dashboard</title>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/dseg@0.46.0/css/dseg.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="brand">◷ ChronoX</div>
+    <button id="themeBtn">☀️ Light Mode</button>
+</header>
+
+<main class="container">
+
+    <!-- Main Clock -->
+    <section class="hero card">
+        <p class="eyebrow">YOUR LOCAL TIME</p>
+        <div id="time" class="main-time">00:00:00</div>
+        <div id="period" class="period">AM</div>
+        <div id="date" class="date">Loading...</div>
+
+        <div class="hero-controls">
+            <button id="formatBtn">Switch to 24H</button>
+            <button id="fullscreenBtn">⛶ Full Screen</button>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="tabs">
+        <button class="tab active" data-tab="world">World Clock</button>
+        <button class="tab" data-tab="stopwatch">Stopwatch</button>
+        <button class="tab" data-tab="timer">Timer</button>
+        <button class="tab" data-tab="alarm">Alarm</button>
+    </nav>
+
+    <!-- World Clock -->
+    <section id="world" class="panel active">
+        <h2>🌍 World Clock</h2>
+        <div class="world-grid">
+            <div class="world-card">
+                <span>🇮🇳 India</span>
+                <h3 id="india">--:--:--</h3>
+                <p>Asia/Kolkata</p>
+            </div>
+
+            <div class="world-card">
+                <span>🇺🇸 New York</span>
+                <h3 id="newyork">--:--:--</h3>
+                <p>America/New_York</p>
+            </div>
+
+            <div class="world-card">
+                <span>🇬🇧 London</span>
+                <h3 id="london">--:--:--</h3>
+                <p>Europe/London</p>
+            </div>
+
+            <div class="world-card">
+                <span>🇯🇵 Tokyo</span>
+                <h3 id="tokyo">--:--:--</h3>
+                <p>Asia/Tokyo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stopwatch -->
+    <section id="stopwatch" class="panel">
+        <h2>⏱ Stopwatch</h2>
+        <div id="stopwatchDisplay" class="tool-display">00:00:00.00</div>
+
+        <div class="controls">
+            <button id="startStopwatch">Start</button>
+            <button id="resetStopwatch">Reset</button>
+            <button id="lapStopwatch">Lap</button>
+        </div>
+
+        <ul id="laps" class="laps"></ul>
+    </section>
+
+    <!-- Timer -->
+    <section id="timer" class="panel">
+        <h2>⏳ Countdown Timer</h2>
+
+        <div class="timer-inputs">
+            <input type="number" id="timerHours" min="0" max="99" placeholder="HH">
+            <span>:</span>
+            <input type="number" id="timerMinutes" min="0" max="59" placeholder="MM">
+            <span>:</span>
+            <input type="number" id="timerSeconds" min="0" max="59" placeholder="SS">
+        </div>
+
+        <div id="timerDisplay" class="tool-display">00:00:00</div>
+
+        <div class="controls">
+            <button id="startTimer">Start</button>
+            <button id="pauseTimer">Pause</button>
+            <button id="resetTimer">Reset</button>
+        </div>
+    </section>
+
+    <!-- Alarm -->
+    <section id="alarm" class="panel">
+        <h2>🔔 Alarm Clock</h2>
+
+        <div class="alarm-input">
+            <input type="time" id="alarmTime">
+            <button id="setAlarm">Set Alarm</button>
+        </div>
+
+        <button id="stopAlarmBtn" class="stop-alarm-btn">
+    🔕 Stop Alarm
+</button>
+
+        <p id="alarmStatus">No alarm set</p>
+
+        <button id="clearAlarm" class="secondary">Clear Alarm</button>
+    </section>
+
+</main>
+
+<footer>
+    <p>ChronoX © 2026 | Made with Love and Passion</p>
+</footer>
+
+<script src="script.js"></script>
+
+<audio id="alarmSound" src="Sounds/u_inx5oo5fv3-alarm-327234.mp3" preload="auto"></audio>
+</body>
+</html>
