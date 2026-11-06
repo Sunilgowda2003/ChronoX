@@ -10,7 +10,7 @@ The application features a premium glassmorphism interface, neon-inspired digita
 
 ## 🚀 Live Demo
 
-🔗 **Live Application:** [Add your GitHub Pages URL here]
+🔗 **Live Application:** [[Add your GitHub Pages URL here](https://sunilgowda2003.github.io/ChronoX/)]
 
 ---
 
