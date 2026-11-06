@@ -20,31 +20,33 @@ The application features a premium glassmorphism interface, neon-inspired digita
 
 | Dark Mode | Light Mode |
 |---|---|
-| ![Clock Dark](screenshots/clock-dark.png) | ![Clock Light](screenshots/clock-light.png) |
+| ![Clock Dark](Screenshots/Clock%20dark.png) | ![Clock Light](Screenshots/Clock%20light.png) |
 
 ### World Clock
 
 | Dark Mode | Light Mode |
 |---|---|
-| ![World Clock Dark](screenshots/world-clock-dark.png) | ![World Clock Light](screenshots/world-clock-light.png) |
+| ![World Clock Dark](Screenshots/World%20clock%20dark.png) | ![World Clock Light](Screenshots/world%20clock%20light.png) |
 
 ### Stopwatch
 
 | Dark Mode | Light Mode |
 |---|---|
-| ![Stopwatch Dark](screenshots/stopwatch-dark.png) | ![Stopwatch Light](screenshots/stopwatch-light.png) |
+| ![Stopwatch Dark](Screenshots/Stopwatch%20dark.png) | ![Stopwatch Light](Screenshots/Stopwatch%20light.png) |
 
 ### Countdown Timer
 
 | Dark Mode | Light Mode |
 |---|---|
-| ![Timer Dark](screenshots/timer-dark.png) | ![Timer Light](screenshots/timer-light.png) |
+| ![Timer Dark](Screenshots/Timer%20dark.png) | ![Timer Light](Screenshots/Timer%20light.png) |
 
 ### Alarm Clock
 
-![Alarm Clock](screenshots/alarm.png)
+![Alarm](Screenshots/Alarm.png)
 
-![Alarm Ringing](screenshots/alarm-ringing.png)
+### Alarm Ringing
+
+![Alarm Ringing](Screenshots/Alarm%20ring.png)
 
 ---
 
